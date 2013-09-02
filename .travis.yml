@@ -4,4 +4,4 @@ before_install:
  - sudo apt-get install -qq flex bison autoconf automake libcurl4-openssl-dev libtool libltdl3-dev libsnmp-dev libxml2-dev
 compiler:
   - gcc
-script: "sudo ./build.sh && ./configure && make && make install"
+script: "sudo ./build.sh && sudo ./configure && sudo make && sudo make install"
