@@ -1,7 +1,7 @@
 language: cpp
 before_install:
  - sudo apt-get update -qq
- - sudo apt-get install -qq flex bison autoconf automake libtool libltdl3-dev libnetsnmp
+ - sudo apt-get install -qq flex bison autoconf automake libtool libltdl3-dev libsnmp-dev
 compiler:
   - clang
   - gcc
